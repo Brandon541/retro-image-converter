@@ -75,18 +75,15 @@ python retro_converter.py photo.jpg --style retro --palette apple2 --width 640 o
 ### Styles
 
 #### Game Boy Camera (`gameboy`)
-
 - Resolution: 128x112 pixels
 - Colors: 4-shade green palette
 - Best for: Nostalgic, vintage look
 
 #### Dot Matrix (`dotmatrix`)
-
 - Colors: Black and white only
 - Best for: High contrast images, text, simple graphics
 
 #### Retro Computer (`retro`)
-
 - Multiple vintage computer palettes
 - **CGA**: IBM PC 16-color palette
 - **Apple II**: Apple II 16-color palette
@@ -140,7 +137,7 @@ python retro_converter.py info
 The tool implements several classic image processing techniques:
 
 - **Floyd-Steinberg error diffusion dithering**
-- **Bayer matrix ordered dithering**
+- **Bayer matrix ordered dithering** 
 - **Color quantization** to limited palettes
 - **Nearest color matching** in RGB space
 - **Bicubic resampling** for resolution changes
